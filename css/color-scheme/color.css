@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------------------------------------
+[Theme Color Stylesheet]
+
+Project:	Advisor
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+    common classes
+-----------------------------------------------------------------*/
+a { color: #57585A;}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{ color:#008886;}
+
+.color-default{ color:#008886 !important;}
+.btn-link { color: #008886;}
+#header .main-nav li a:hover, #header .main-nav li.active a{ border-color:#008886}
+#header .search-container .search button{ color:#008886;}
+#header .search-container .search input[type="text"]:focus{ border-color:#008886;}
+.no-touch .cd-slider-nav a:hover {background-color: #008886;}
+.cd-slider-nav .cd-marker {background-color: #008886;}
+#footer a:hover{ color:#008886;}
+.btn-primary { background-color: #008886;}
+.owl-dots .owl-dot.active{background-color: #008886;}
+.counter span{ color:#008886;}
+.service-box, .service-box.two:hover, .service-box.three:hover{ border-color:#008886;}
+.service-box i{ color:#008886;}
+.toggle .toggle-heading a i{ color:#008886; border-color:#008886;}
+.meet-advisors-content h3{ color:#008886;}
+.selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor{background-color: #008886;}
+#header .main-nav li.dropdown ul.dropdown-menu li a:hover, #header .main-nav li.dropdown ul.dropdown-menu li.active a{ background-color:#008886;}
+.cd-slider-nav li .slide-number{ background-color:#008886;}
+.cd-slider-nav li.selected .slide-number, .cd-slider-nav li:hover .slide-number{ color:#008886;}
+#header.header-two .header-contact-widget li i{ color:#008886;}
+#header.header-two .header-contact-widget li p a:hover{ color:#008886;}
+.breadcrumbs li a:hover{ color:#008886;}
+.blog-item .blog-content h3 a:hover{ color:#008886;}
+.blog-item .blog-meta li a:hover{color:#008886;}
+.categories li a:hover{color:#008886;}
+.tags li a:hover {color:#008886; border-color:#008886;}
+.popular-post h4 a:hover {color:#008886;}
+.search {background-color: #008886;}
+.search .search-icon:hover i {color:#008886;}
+.blog-item-classic .blog-content a.btn-link, .blog-item .blog-content a.btn-link{border-color:#008886;}
+.blog-item-classic .blog-content h3 a:hover{ color:#008886;}
+.news-paggination li a:hover{ color:#008886;}
+.company-history li .year{ color:#008886}
+.company-history li .history-content:before{ background-color:#008886}
+.team-member h4{ color:#008886}
+.list-bullets li:before{ background:#008886;}
+.left-nav li a:hover, .left-nav li a.active{ border-color:#008886;}
+.help-widget{ background-color:#008886;}
+.product-description h3 a:hover{ color:#008886;}
+.product-description .product-cart-btn:hover, .product-description .product-detail-btn:hover{ color:#008886;}
+.product-thumb label{ background:#008886;}
+.ui-slider-horizontal .ui-slider-range{ background:#008886;}
+.top-products .top-products-detail i{ color:#008886;}
+.top-products .top-products-detail h4 a:hover{ color:#008886;}
+.ratings i{ color:#008886;}
+.resp-vtabs li.resp-tab-active{color:#008886;}
+.resp-tab-active { background:#008886;}
+.cart-total .amount{color:#008886;}
+.banner-btn.colored{ background:#008886;}
+.map-with-address-widget a:hover{ color:#008886;}
+blockquote{ border-color:#008886;}
+.cases-filter-nav li a:hover, .cases-filter-nav li a.selected{ background:#008886;}
+.product-detail-slider .rslides_tabs li.rslides_here a{background:#008886}
+.review-form-close:hover{ background:#008886;}
+.btn.btn-dark:hover{ background:#008886;}
+
+.btn-primary:hover  {background-color: #008886;}
+a:hover, a:focus, .btn-link:hover, .btn-link:focus { color:#008886;}
+
+.icon-img-1{ background-image:url(../images/color-scheme/green/icon1.png);}
+.icon-img-2{ background-image:url(../images/color-scheme/green/icon2.png);}
+.icon-img-3{ background-image:url(../images/color-scheme/green/icon3.png);}
+.icon-img-4{ background-image:url(../images/color-scheme/green/icon4.png);}
+.icon-img-5{ background-image:url(../images/color-scheme/green/icon5.png);}
+.icon-img-6{ background-image:url(../images/color-scheme/green/icon6.png);}
+.icon-img-7{ background-image:url(../images/color-scheme/green/icon7.png);}
+.icon-img-8{ background-image:url(../images/color-scheme/green/icon8.png);}
+.icon-img-9{ background-image:url(../images/color-scheme/green/icon9.png);}
+
+#footer .usefull-links-widget li a:hover{ background-image:url(../images/color-scheme/green/dot-h.png)}
+aside .testimonial-content{ background-image:url(../images/color-scheme/green/testimonial-pointer2.png)}
+
+.highlighted-sec li:nth-child(1n+1) .text-box{ background:#008886; padding: 6px; margin: 2px;}
+.highlighted-sec li:nth-child(2n+2) .text-box{ background:#157372;}
+.highlighted-sec li:nth-child(3n+3) .text-box{ background:#1f6968;}
+.highlighted-sec li:nth-child(4n+4) .text-box{ background:#157372;}
+.highlighted-sec li:nth-child(5n+5) .text-box{ background:#107877;}
+.highlighted-sec li:nth-child(6n+6) .text-box{ background:#107877;}
+
+
+.services.highlighted .owl-item:nth-child(3n+1) .service-box{ background:#008886;}
+.services.highlighted .owl-item:nth-child(3n+2) .service-box{ background:#068e1d;}
+.services.highlighted .owl-item:nth-child(3n+3) .service-box{ background:#07811c;}
+
+
+.cases-item figcaption{ background:rgba(9,162,35,0.80);}
+
+/* initial background: 3a2c5f */
+#header .top-bar:after, #header .top-bar{ background:#57585A;}
+#header .top-bar:before, #header .top-bar p, #header .top-bar p:after{ background:#57585A;}
+#header.header-two .main-nav{ background:#57585A}
+.smallHeader.active #header.header-two{ background:#57585A !important;}
+
+.testimonial-2 .testimonials-author p{color:#008886;}
+#header.header-three .main-nav li a:hover, #header.header-three .main-nav li.active > a{color:#008886;}
